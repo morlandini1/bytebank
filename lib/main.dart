@@ -22,7 +22,9 @@ class FormularioTransferencia extends StatelessWidget {
   const FormularioTransferencia({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Text('teste');
+    return Scaffold(
+      appBar: AppBar(title: Text('criando transferencia'),),
+      body: Text('teste'));
   }
 }
 class ListaTransferencias extends StatelessWidget {
