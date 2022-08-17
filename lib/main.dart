@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(
     MaterialApp(
       home: Scaffold(
-        body: ListaTransferencias(),
+        body: FormularioTransferencia(),
         appBar: AppBar(title: Text('Trasferências'),),
         floatingActionButton: FloatingActionButton(
           onPressed: () {  },
